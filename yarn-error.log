@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/lib/node_modules/node/lib/node_modules/node/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/_sam/Desktop/UBC/310:/usr/local/Cellar/ruby/2.4.1/bin:/usr/local/texlive/2016/bin/x86_64-darwin:/Applications/Sublime Text.app/Contents/SharedSupport/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/_sam/Dropbox/bin:/Users/_sam/Library/Python/3.6/bin:/Users/_sam/utility:/Users/_sam/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  1.0.2
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+      "name": "HTTP-basic-auth-demo",
+      "description": "CPSC 310 Basic Auth Demo",
+      "author": "Sam Liu",
+      "license": "GPL-3.0",
+      "version": "1.0.0",
+      "devDependencies": {
+          "@types/restify": "^2.0.X",
+          "restify": "^4.3.X",
+      },
+      "scripts": {
+          "start": "node src/App.js"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/_sam/Projects/ubc/310-security-lecture/basic-auto-demo/package.json: Unexpected token } in JSON at position 254
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:797:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103:13
+      at <anonymous>
